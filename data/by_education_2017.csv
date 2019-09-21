@@ -1,19 +1,19 @@
-By education,Median weekly earnings in 2017
-"Men, 25 years and over",996
-Less than a high school diploma,584
-"High school graduates, no college(3)",797
-Some college or associate degree,917
-"Some college, no degree",886
-Associate degree,978
-Bachelor's degree and higher,"1,481"
-Bachelor's degree only,"1,378"
-Advanced degree(4),"1,737"
-"Women, 25 years and over",810
-Less than a high school diploma,447
-"High school graduates, no college(3)",610
-Some college or associate degree,700
-"Some college, no degree",680
-Associate degree,727
-Bachelor's degree and higher,"1,131"
-Bachelor's degree only,"1,013"
-Advanced degree(4),"1,291"
+By education,Median weekly earnings in 2017,Gender
+"Men, 25 years and over",996,Male
+Less than a high school diploma,584,Male
+"High school graduates, no college(3)",797,Male
+Some college or associate degree,917,Male
+"Some college, no degree",886,Male
+Associate degree,978,Male
+Bachelor's degree and higher,"1,481",Male
+Bachelor's degree only,"1,378",Male
+Advanced degree(4),"1,737",Male
+"Women, 25 years and over",810,Female
+Less than a high school diploma,447,Female
+"High school graduates, no college(3)",610,Female
+Some college or associate degree,700,Female
+"Some college, no degree",680,Female
+Associate degree,727,Female
+Bachelor's degree and higher,"1,131",Female
+Bachelor's degree only,"1,013",Female
+Advanced degree(4),"1,291",Female
