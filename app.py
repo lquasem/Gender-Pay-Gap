@@ -17,7 +17,7 @@ import pprint
 # app = Flask(__name__)
 app = Flask(__name__, template_folder="templates", static_folder="static")
 # get connected to the database
-connection = pg.connect("dbname=gender_pay_gap user=postgres password='database'")
+connection = pg.connect("dbname=gender_pay_gap user=postgres password='your password'")
 dataframe = psql.read_sql_query("SELECT * FROM pay_gap_by_education", connection)
 
 print(dataframe)
