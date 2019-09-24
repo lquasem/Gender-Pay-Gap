@@ -1,2 +1,2 @@
 # Postgre 
-password = "Your Password"
+password = "Your password"
