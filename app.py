@@ -17,66 +17,33 @@ import pprint
 # app = Flask(__name__)
 app = Flask(__name__, template_folder="templates", static_folder="static")
 # get connected to the database
-connection = pg.connect("dbname=gender_pay_gap user=postgres password='your password'")
-dataframe = psql.read_sql_query("SELECT * FROM pay_gap_by_education", connection)
+connection = pg.connect("dbname=gender_pay_gap user=postgres password='Pent!1782'")
+pay_gap_by_education = psql.read_sql_query("SELECT * FROM pay_gap_by_education", connection)
+pay_gap_by_race_df = psql.read_sql_query("SELECT * FROM pay_gap_by_race", connection)
+print(pay_gap_by_race_df)
 
-print(dataframe)
+@app.route("/globalData")
+def getGlobalData():
 
-# men_education = dataframe.loc[dataframe["gender"] == "Male"]
-# men_education = men_education.replace(
-#     {"Men, 25 years and over": "25 years and over"})
-# men_dict = men_education.to_dict('dict')
-# dic = men_dict.get('education_level', 'median_weekly_earnings_in_2016')
-# pprint.pprint(dic)
-# pprint.pprint(men_dict)
-# women_education = dataframe.loc[dataframe["gender"] == "Female"]
-# women_education = women_education.replace(
-#     {"Women, 25 years and over": "25 years and over"})
-# print(women_education)
-# print(list(women_education.columns))
+   fpath = "../cleaned_data/countries.geojson"
+   with open(fpath) as f: contents = f.read()
+   print(contents)
+   return contents
 
 
-
-  
-# try: 
-#     connection = pg.connect(user = "postgres",
-#                                     password = "database",
-#                                     host = "127.0.0.1",
-#                                     port = "5432",
-#                                     database = "gender_pay_gap")
-#     cursor = connection.cursor()
-#     # Print PostgreSQL Connection properties
-#     print ( connection.get_dsn_parameters(),"\n")
-
-#     cursor.callproc('pay_gap_by_education')
-#     for row in results:
-#         print("id = ", row[0], )
-#         print("eduvation_level = ", row[1])
-#         print("median_weekly_earnings_in_2018  = ", row[2])
-
-
-#     # # Print PostgreSQL version
-#     # cursor.execute("SELECT version();")
-#     # record = cursor.fetchone()
-#     # print("You are connected to - ", record,"\n")
-# except (Exception, pg.Error) as error :
-#     print ("Error while connecting to PostgreSQL", error)
-# finally:
-#     #closing database connection.
-#         if(connection):
-#             cursor.close()
-#             connection.close()
-#             print("PostgreSQL connection is closed")
+@app.route("/byRace")
+def byRaceData():
+    return jsonify(pay_gap_by_race_df.to_dict())
 
 @app.route("/")
 def index():
     """Return the homepage."""
     return render_template("index.html")
 
-@app.route("/names")
+@app.route("/byEducation")
 def names():
-    return jsonify(dataframe.to_dict())
+    return jsonify(pay_gap_by_education.to_dict())
 
 
 if __name__ == '__main__':
-    app.run()
+    app.run(port=1234)
