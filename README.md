@@ -1,5 +1,5 @@
 # Gender-Pay-Gap
-Exploring the persistence of gender pay gap in wordlwide and the U.S.
+Exploring the persistence of gender pay gap in the U.S. and a short report of the differences of pay, globally.
 
 "Equal pay for equal work is the concept of labour rights that individuals in the same workplace be given equal pay. ... Since President John F. Kennedy signed the Equal Pay Act of 1963, it has been illegal in the United States to pay men and women working in the same place different salaries for similar work."
 -Wikipedia
