@@ -1,5 +1,6 @@
 # Gender-Pay-Gap
-Exploring the persistence of gender pay gap in the US
+Exploring the persistence of gender pay gap in wordlwide and the U.S.
+
 "Equal pay for equal work is the concept of labour rights that individuals in the same workplace be given equal pay. ... Since President John F. Kennedy signed the Equal Pay Act of 1963, it has been illegal in the United States to pay men and women working in the same place different salaries for similar work."
 -Wikipedia
 
@@ -14,6 +15,7 @@ These were the following topics that we studied further:
 •	Gender Gap Education
 
 The main goal was to produce a dashboard that explored the above topics… we used the following approach to create our dashboard:
+
 •	Data cleaning in Jupiter notebook
 •	Connecting to Postgres database
 •	Data upload into SQL database
