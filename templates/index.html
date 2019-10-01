@@ -11,36 +11,23 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
-  <!-- script data-main="scripts/main" src="static/js/require.js"></script-->
-
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
     integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
     crossorigin="anonymous"></script>
-
-
-
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
     crossorigin="" />
   <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
     integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
     crossorigin=""></script>
-
   <!--D3 cdn-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script type="module" src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
   <script src="https://gmousse.github.io/dataframe-js/dist/dataframe.js"></script>
-
   <script type="module">
-    import { yearSelection, buildDtaSet, buildCharts, payYearSelection} from '../static/js/data.js'
-    console.log("Inside index script")
     document.querySelector('#selDataset').addEventListener('change', yearSelection)
-    document.querySelector('#selYear').addEventListener('change',  payYearSelection)
-    
   </script>
+
 
   <!-- Our CSS -->
   <link rel="stylesheet" type="text/css" href="static/css/style.css">
@@ -48,13 +35,7 @@
 </head>
 
 <body>
-  <!--       
-      <div id="scroll-animate">
-        <div id="scroll-animate-main">
-          <div class="wrapper-parallax"> -->
   <div class="container-fluid">
-
-
     <!-- ############################## -->
 
     <div class="content" style="background-color: #6E7DE5">
@@ -111,7 +92,7 @@
               Pay Gap</a></div>
           <div class="col-md-2" style="padding-top: 8px;"><a class="subnav" href="#pay_gap_by_race">Gender Pay Gap<br>
               by Race</a></div>
-          <div class="col-md-2" style="padding-top: 8px;"><a class="subnav" href="#pay_gap_by_education">Pay Gap<br>
+          <div class="col-md-2" style="padding-top: 8px;"><a class="subnav" href="#section08">Pay Gap<br>
               by Education</a></div>
           <div class="col-md-2" style="padding-top: 8px;"><a class="subnav" href="#pay_gap_by_country">Pay Gap<br>
               By Country</a></div>
@@ -120,142 +101,117 @@
     </div>
     <br>
     <div class="container">
+      <div class="col-md-12">
+        <h2 class="  " style="color: #6e7ce6;">
+          EXECUTIVE SUMMARY
+        </h2>
+        <p class="">
+          The gender pay gap or gender wage gap is the median difference between the remuneration for men and women who are working. Women are generally paid less than men. 
+          There are two distinct numbers regarding the pay gap: unadjusted versus adjusted pay gap.
 
-      
-        <div class="col-md-12">
-          <h2 class="  " style="color: #6e7ce6;">
-            EXECUTIVE SUMMARY
+        </p>
+        <br><br><br>
+      </div>
+
+      <div id="pay_gap_overall" class="col-md-12">
+        <div>
+          <h2 style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+            GENDER PAY GAP OVERALL
           </h2>
-          <p class="">
-            We have started analysing the data to find the gender pay gap, the difference between the earnings of women and men
-            has
-            shrunk over the years. But significant disparity in how men and women are paid still remains. The uncontrolled gender
-            pay
-            gap, which takes the ratio of median earnings of all women to all men, decreased by $0.05 since 2015.
-            However, women still make only $0.79 for every dollar men make in 2019.
+          <p>
+            <br>
+            The Simple Truth about the Gender Pay Gap
+            The gender pay gap is the gap between what men and women are paid.
+            <br>
+            Most commonly, it refers to the median annual pay of all women who work full time and year-round,
+            compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
+            or
+            hourly earnings, or are specific to a particular group of women.
           </p>
-          <br><br><br>
-        </div>
-
-        <div  class="col-md-12">
-            <div>
-              <h2 id="pay_gap_overall" style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
-                GENDER PAY GAP OVERALL
-      
-              </h2>
-      
-              <p>
-                <br>
-                The Simple Truth about the Gender Pay Gap
-                The gender pay gap is the gap between what men and women are paid.
-                <br>
-                Most commonly, it refers to the median annual pay of all women who work full time and year-round,
-                compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
-                or
-                hourly earnings, or are specific to a particular group of women.
-              </p>
-              <br>
-              <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
-              <div class="container">
-                <div class="row">
-                  <div class="col" id="byracepie"></div>
-                </div>
-                    <div class="row"> 
-                        <h2 id = "womenEarns" class="pxl-margin-bottom-md" style="color: #4a4848;"></h2><br><br><br>
-                    </div>
-              </div>
+          <br>
+          <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
+          <div class="container">
+            <div class="row">
+              <div class="col" id="byracepie" ></div>
+            </div>
+            <div class="row">
+              <h2 id="womenEarns" class="pxl-margin-bottom-md" style="color: #4a4848;"></h2><br><br><br>
             </div>
           </div>
+        </div>
+      </div>
 
-          <div class="col-md-12">
+      <div id="pay_gap_by_country" class="col-md-12">
+        <div>
+          <h2 style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+            Pay Gap by Country
+          </h2>
+          <p>
+            <br>
+            The gender wage gap varies across countries. For example, among OECD nations
+            women in Australia, Belgium, Italy and Sweden earn 80% as much as males, whereas
+            in Austria, Canada and Japan women earn about 60%. Current studies examining
+            cross-country differences focus on the impact of labor market institutions such as
+            minimum wage laws and nationwide collective bargaining. 
+          </p>
+          <br>
+          <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
+          <br><br><br>
+          <div class="row">
+            <div class="col-md-12">
+              <div id="map" style='height:600px; width:150%'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="pay_gap_by_race" class="col-md-12">
+        <div>
+          <h2 style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+            <br>
+            Gender Pay Gap by Race
+          </h2>
+          <p>
+            <br>
+            Women continue to be under-represented in traditionally male-occupied categories and within similar categories women are consistently paid below men, even if women’s educational attainments are just as good or better than those of men in similar occupations.
+          </p>
+          <br>
+          <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6" id="byracebar"></div>>
+                <h3 class="title-style">Select a Year:</h3>
+                <select id="selDataset"> </select>
+              </div>  
+            </div>
+
+          </div>
+          <div id="pay_gap_by_education" class="col-md-12">
             <div>
-              <h2 id="pay_gap_by_country" style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
-                Pay Gap by Country
-      
+              <h2 style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
+                Gender Pay Gap by Education
               </h2>
-      
               <p>
                 <br>
-                The Simple Truth about the Gender Pay Gap
-                The gender pay gap is the gap between what men and women are paid.
-                <br>
-                Most commonly, it refers to the median annual pay of all women who work full time and year-round,
-                compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
-                or
-                hourly earnings, or are specific to a particular group of women.
+                The U.S. male-female wage ratio is now about 78%, but an intriguing pattern
+                    emerges when examining this gender wage gap for different occupation groups. 
               </p>
               <br>
               <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
+            </div>
+
+            <div class="row">
+              <div id="graph_2018"></div>
+            </div>
+            <div class="row">
               <br><br><br>
             </div>
+
           </div>
-      
-          <div  class="col-md-12">
-            <div>
-              <h2 id="pay_gap_by_race" style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
-                Gender Pay Gap by Race
-      
-              </h2>
-      
-              <p>
-                <br>
-                The Simple Truth about the Gender Pay Gap
-                The gender pay gap is the gap between what men and women are paid.
-                <br>
-                Most commonly, it refers to the median annual pay of all women who work full time and year-round,
-                compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
-                or
-                hourly earnings, or are specific to a particular group of women.
-              </p>
-              <br>
-              <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
-              
-              <div class="container">
-                <div class="row">
-                  <div>
-                    <h3 class="title-style">Select a Year:</h3>
-                    <select id="selDataset"> </select>
-                  </div>
-                  <div class="col" id="byracebar"></div>
-                </div>
-                
-              </div>
-              <div  class="col-md-12">
-                <div>
-                  <h2 id="pay_gap_by_education" style="color:cadetblue; font-weight: bold; font-family: Arial, Helvetica, sans-serif;">
-                    Gender Pay Gap by Education
-      
-                  </h2>
-      
-                  <p>
-                    <br>
-                    The Simple Truth about the Gender Pay Gap
-                    The gender pay gap is the gap between what men and women are paid.
-                    <br>
-                    Most commonly, it refers to the median annual pay of all women who work full time and year-round,
-                    compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
-                    or
-                    hourly earnings, or are specific to a particular group of women.
-                  </p>
-                  <br>
-                  <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
-                </div>
-                <div class="row">
-                  <div id="graph_2016"></div>
-                  <div id="graph_2017"></div>
-                  <div id="graph_2018"></div>
-                </div>
-                <div class="row">
-                  <br><br><br></div>
-              </div>
-            </div>
-      
-      
-          </div>
-      
+        </div>
+      </div>
     </div>
-
-
 
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50">
       <div class="container text-center">
@@ -263,11 +219,19 @@
       </div>
     </footer>
   </div>
-
-
-  <!-- <script src="node_modules/chart.js/Chart.min.js"></script>
-  <script src="node_modules/angular-chart.js/dist/angular-chart.min.js"></script> -->
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://d3js.org/d3.v5.js"></script>
+  <!-- API key -->
+  <script type="text/javascript" src="static/js/config.js"></script>
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
+  <!-- D3 JavaScript -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.3/d3.min.js"></script>
+  <!-- Our JavaScript -->
+  <script src="static/js/data.js"></script>
+  <script src="static/js/app.js"></script>
 </body>
 
 </html>
