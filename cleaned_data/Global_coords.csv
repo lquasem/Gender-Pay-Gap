@@ -1,91 +1,91 @@
-id,country,sex,occupation,currency,survey,type_of_source,year_2016_earnings,geometry
-0,Albania,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),General Directorate of Taxation,Insurance records,403,POINT (20 41)
-1,Albania,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),General Directorate of Taxation,Insurance records,357,POINT (20 41)
-2,Armenia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Labour Force Survey,Labour force survey,249,POINT (45 40)
-3,Armenia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Labour Force Survey,Labour force survey,166,POINT (45 40)
-4,Azerbaijan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour-related establishment survey,Establishment survey,395,POINT (47 40)
-5,Azerbaijan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour-related establishment survey,Establishment survey,199,POINT (47 40)
-6,Bosnia and Herzegovina,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,441,POINT (17 43)
-7,Bosnia and Herzegovina,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,386,POINT (17 43)
-8,Bangladesh,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,167,POINT (90 23)
-9,Bangladesh,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,154,POINT (90 23)
-10,Belgium,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,3634,POINT (4 50)
-11,Belgium,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,2901,POINT (4 50)
-12,Bolivia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Employment Survey,Labour force survey,483,POINT (-63 -16)
-13,Bolivia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Employment Survey,Labour force survey,364,POINT (-63 -16)
-14,Brazil,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Household Sample Survey,Other household survey,654,POINT (-51 -14)
-15,Brazil,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Household Sample Survey,Other household survey,516,POINT (-51 -14)
-16,Belize,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,586,POINT (-88 17)
-17,Belize,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,566,POINT (-88 17)
-18,Costa Rica,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Household Survey,Other household survey,967,POINT (-83 9)
-19,Costa Rica,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Household Survey,Other household survey,868,POINT (-83 9)
-20,Costa Rica,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Business Survey (ENAE),Establishment survey,939,POINT (-83 9)
-21,Costa Rica,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Business Survey (ENAE),Establishment survey,929,POINT (-83 9)
-22,Czech Republic,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Survey on Structure of Earnings,Establishment survey,1312,POINT (15 49)
-23,Czech Republic,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Survey on Structure of Earnings,Establishment survey,1036,POINT (15 49)
-24,Dominican Republic,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Labour Force Survey,Labour force survey,321,POINT (-70 18)
-25,Dominican Republic,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Labour Force Survey,Labour force survey,216,POINT (-70 18)
-26,Ecuador,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"National Survey on Employment, Unemployment and Underemployment",Labour force survey,499,POINT (-78 -1)
-27,Ecuador,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"National Survey on Employment, Unemployment and Underemployment",Labour force survey,496,POINT (-78 -1)
-28,Egypt,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force sample survey,Labour force survey,225,POINT (30 26)
-29,Egypt,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force sample survey,Labour force survey,182,POINT (30 26)
-30,Spain,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,2296,POINT (-3 40)
-31,Spain,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,1837,POINT (-3 40)
-32,Fiji,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Employment, Unemployment Survey",Labour force survey,547,POINT (179 -16)
-33,Fiji,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Employment, Unemployment Survey",Labour force survey,509,POINT (179 -16)
-34,United Kingdom,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Survey of Hours and Earnings,Establishment survey,3712,POINT (-3 55)
-35,United Kingdom,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Survey of Hours and Earnings,Establishment survey,2437,POINT (-3 55)
-36,Greece,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,1031,POINT (21 39)
-37,Greece,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,892,POINT (21 39)
-38,Guatemala,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Monthly Employment and Income Survey,Labour force survey,343,POINT (-90 15)
-39,Guatemala,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Monthly Employment and Income Survey,Labour force survey,333,POINT (-90 15)
-40,Honduras,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Multi-Purpose Household Survey,Other household survey,294,POINT (-86 15)
-41,Honduras,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Multi-Purpose Household Survey,Other household survey,334,POINT (-86 15)
-42,Israel,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Income Survey,Household income/expenditure survey,3037,POINT (34 31)
-43,Israel,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Income Survey,Household income/expenditure survey,1987,POINT (34 31)
-44,Iceland,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Icelandic Survey on Earnings, Wages and Labour cost",Establishment survey,6158,POINT (-19 64)
-45,Iceland,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Icelandic Survey on Earnings, Wages and Labour cost",Establishment survey,4817,POINT (-19 64)
-46,Jordan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey for Establishments,Establishment survey,714,POINT (36 30)
-47,Jordan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey for Establishments,Establishment survey,645,POINT (36 30)
-48,Cambodia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Socio-Economic Survey,Household income/expenditure survey,195,POINT (104 12)
-49,Cambodia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Socio-Economic Survey,Household income/expenditure survey,167,POINT (104 12)
-50,Sri Lanka,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Sri Lanka Labour Force Survey,Labour force survey,199,POINT (80 7)
-51,Sri Lanka,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Sri Lanka Labour Force Survey,Labour force survey,160,POINT (80 7)
-52,Mali,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Employment Survey,Labour force survey,129,POINT (-3 17)
-53,Mali,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Employment Survey,Labour force survey,83,POINT (-3 17)
-54,Mauritius,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Multi-Purpose Household Survey,Labour force survey,642,POINT (57 -20)
-55,Mauritius,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Multi-Purpose Household Survey,Labour force survey,459,POINT (57 -20)
-56,Maldives,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household income and Expenditure Survey,Household income/expenditure survey,759,POINT (73 3)
-57,Maldives,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household income and Expenditure Survey,Household income/expenditure survey,600,POINT (73 3)
-58,Mexico,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Occupation and Employment Survey,Labour force survey,329,POINT (-102 23)
-59,Mexico,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Occupation and Employment Survey,Labour force survey,280,POINT (-102 23)
-60,Malaysia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Salaries and Wages Survey,Establishment survey,603,POINT (101 4)
-61,Malaysia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Salaries and Wages Survey,Establishment survey,578,POINT (101 4)
-62,Panama,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Market Survey,Labour force survey,809,POINT (-80 8)
-63,Panama,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Market Survey,Labour force survey,795,POINT (-80 8)
-64,Pakistan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,151,POINT (69 30)
-65,Pakistan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,93,POINT (69 30)
-66,Poland,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,1193,POINT (19 51)
-67,Poland,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,1007,POINT (19 51)
-68,Portugal,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey,Labour force survey,1012,POINT (-8 39)
-69,Portugal,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey,Labour force survey,852,POINT (-8 39)
-70,Paraguay,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Other household survey,401,POINT (-58 -23)
-71,Paraguay,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Other household survey,326,POINT (-58 -23)
-72,Romania,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour cost survey,Establishment survey,714,POINT (24 45)
-73,Romania,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour cost survey,Establishment survey,667,POINT (24 45)
-74,Serbia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,331,POINT (21 44)
-75,Serbia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,301,POINT (21 44)
-76,Slovenia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of earnings records,Other administrative records and related sources,1916,POINT (14 46)
-77,Slovenia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of earnings records,Other administrative records and related sources,1803,POINT (14 46)
-78,Slovakia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Structure of Earnings Survey,Establishment survey,1291,POINT (19 48)
-79,Slovakia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Structure of Earnings Survey,Establishment survey,1007,POINT (19 48)
-80,El Salvador,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Multi-purpose household survey,Other household survey,303,POINT (-88 13)
-81,El Salvador,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Multi-purpose household survey,Other household survey,286,POINT (-88 13)
-82,Thailand,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,421,POINT (100 15)
-83,Thailand,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,419,POINT (100 15)
-84,Timor-Leste,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,308,POINT (125 -8)
-85,Timor-Leste,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,367,POINT (125 -8)
-86,Ukraine,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Survey on wages of employees by gender, age, education and occupational group",Establishment survey,215,POINT (31 48)
-87,Ukraine,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Survey on wages of employees by gender, age, education and occupational group",Establishment survey,166,POINT (31 48)
-88,Uruguay,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Labour force survey,955,POINT (-55 -32)
-89,Uruguay,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Labour force survey,754,POINT (-55 -32)
+id,latitude,longitude,country,sex,occupation,currency,survey,type_of_source,year_2016_earnings
+0,41.153332,20.168331,Albania,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),General Directorate of Taxation,Insurance records,403
+1,41.153332,20.168331,Albania,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),General Directorate of Taxation,Insurance records,357
+2,40.069099,45.038189,Armenia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Labour Force Survey,Labour force survey,249
+3,40.069099,45.038189,Armenia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Labour Force Survey,Labour force survey,166
+4,40.143105,47.576927000000005,Azerbaijan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour-related establishment survey,Establishment survey,395
+5,40.143105,47.576927000000005,Azerbaijan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour-related establishment survey,Establishment survey,199
+6,43.915886,17.679076000000002,Bosnia and Herzegovina,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,441
+7,43.915886,17.679076000000002,Bosnia and Herzegovina,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,386
+8,23.684994,90.35633100000001,Bangladesh,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,167
+9,23.684994,90.35633100000001,Bangladesh,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,154
+10,50.503887,4.469936,Belgium,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,3634
+11,50.503887,4.469936,Belgium,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,2901
+12,-16.290154,-63.588653,Bolivia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Employment Survey,Labour force survey,483
+13,-16.290154,-63.588653,Bolivia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Employment Survey,Labour force survey,364
+14,-14.235004,-51.92528,Brazil,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Household Sample Survey,Other household survey,654
+15,-14.235004,-51.92528,Brazil,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Household Sample Survey,Other household survey,516
+16,17.189877,-88.49765,Belize,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,586
+17,17.189877,-88.49765,Belize,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,566
+18,9.748917,-83.753428,Costa Rica,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Household Survey,Other household survey,967
+19,9.748917,-83.753428,Costa Rica,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Household Survey,Other household survey,868
+20,9.748917,-83.753428,Costa Rica,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Business Survey (ENAE),Establishment survey,939
+21,9.748917,-83.753428,Costa Rica,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Business Survey (ENAE),Establishment survey,929
+22,49.817492,15.472961999999999,Czech Republic,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Survey on Structure of Earnings,Establishment survey,1312
+23,49.817492,15.472961999999999,Czech Republic,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Survey on Structure of Earnings,Establishment survey,1036
+24,18.735692999999998,-70.162651,Dominican Republic,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Labour Force Survey,Labour force survey,321
+25,18.735692999999998,-70.162651,Dominican Republic,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous National Labour Force Survey,Labour force survey,216
+26,-1.8312389999999998,-78.183406,Ecuador,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"National Survey on Employment, Unemployment and Underemployment",Labour force survey,499
+27,-1.8312389999999998,-78.183406,Ecuador,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"National Survey on Employment, Unemployment and Underemployment",Labour force survey,496
+28,26.820553000000004,30.802497999999996,Egypt,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force sample survey,Labour force survey,225
+29,26.820553000000004,30.802497999999996,Egypt,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force sample survey,Labour force survey,182
+30,40.463667,-3.7492199999999998,Spain,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,2296
+31,40.463667,-3.7492199999999998,Spain,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,1837
+32,-16.578193,179.414413,Fiji,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Employment, Unemployment Survey",Labour force survey,547
+33,-16.578193,179.414413,Fiji,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Employment, Unemployment Survey",Labour force survey,509
+34,55.378051,-3.435973,United Kingdom,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Survey of Hours and Earnings,Establishment survey,3712
+35,55.378051,-3.435973,United Kingdom,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Survey of Hours and Earnings,Establishment survey,2437
+36,39.074208,21.824312,Greece,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,1031
+37,39.074208,21.824312,Greece,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,892
+38,15.783470999999999,-90.23075899999999,Guatemala,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Monthly Employment and Income Survey,Labour force survey,343
+39,15.783470999999999,-90.23075899999999,Guatemala,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Monthly Employment and Income Survey,Labour force survey,333
+40,15.199998999999998,-86.241905,Honduras,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Multi-Purpose Household Survey,Other household survey,294
+41,15.199998999999998,-86.241905,Honduras,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Multi-Purpose Household Survey,Other household survey,334
+42,31.046051000000002,34.851612,Israel,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Income Survey,Household income/expenditure survey,3037
+43,31.046051000000002,34.851612,Israel,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Income Survey,Household income/expenditure survey,1987
+44,64.96305100000001,-19.020835,Iceland,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Icelandic Survey on Earnings, Wages and Labour cost",Establishment survey,6158
+45,64.96305100000001,-19.020835,Iceland,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Icelandic Survey on Earnings, Wages and Labour cost",Establishment survey,4817
+46,30.585164000000002,36.238414,Jordan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey for Establishments,Establishment survey,714
+47,30.585164000000002,36.238414,Jordan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey for Establishments,Establishment survey,645
+48,12.565679,104.990963,Cambodia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Socio-Economic Survey,Household income/expenditure survey,195
+49,12.565679,104.990963,Cambodia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household Socio-Economic Survey,Household income/expenditure survey,167
+50,7.873054,80.77179699999999,Sri Lanka,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Sri Lanka Labour Force Survey,Labour force survey,199
+51,7.873054,80.77179699999999,Sri Lanka,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Sri Lanka Labour Force Survey,Labour force survey,160
+52,17.570692,-3.9961660000000006,Mali,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Employment Survey,Labour force survey,129
+53,17.570692,-3.9961660000000006,Mali,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Employment Survey,Labour force survey,83
+54,-20.348404000000002,57.552152,Mauritius,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Multi-Purpose Household Survey,Labour force survey,642
+55,-20.348404000000002,57.552152,Mauritius,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continuous Multi-Purpose Household Survey,Labour force survey,459
+56,3.202778,73.22068,Maldives,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household income and Expenditure Survey,Household income/expenditure survey,759
+57,3.202778,73.22068,Maldives,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Household income and Expenditure Survey,Household income/expenditure survey,600
+58,23.634501,-102.552784,Mexico,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Occupation and Employment Survey,Labour force survey,329
+59,23.634501,-102.552784,Mexico,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),National Occupation and Employment Survey,Labour force survey,280
+60,4.210483999999999,101.97576600000001,Malaysia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Salaries and Wages Survey,Establishment survey,603
+61,4.210483999999999,101.97576600000001,Malaysia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Salaries and Wages Survey,Establishment survey,578
+62,8.537981,-80.782127,Panama,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Market Survey,Labour force survey,809
+63,8.537981,-80.782127,Panama,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Market Survey,Labour force survey,795
+64,30.375321000000003,69.345116,Pakistan,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,151
+65,30.375321000000003,69.345116,Pakistan,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,93
+66,51.919438,19.145135999999997,Poland,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,1193
+67,51.919438,19.145135999999997,Poland,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of Earnings Survey,Establishment survey,1007
+68,39.399871999999995,-8.224454,Portugal,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey,Labour force survey,1012
+69,39.399871999999995,-8.224454,Portugal,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Employment Survey,Labour force survey,852
+70,-23.442503,-58.44383199999999,Paraguay,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Other household survey,401
+71,-23.442503,-58.44383199999999,Paraguay,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Other household survey,326
+72,45.943160999999996,24.96676,Romania,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour cost survey,Establishment survey,714
+73,45.943160999999996,24.96676,Romania,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour cost survey,Establishment survey,667
+74,44.016521000000004,21.005859,Serbia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,331
+75,44.016521000000004,21.005859,Serbia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,301
+76,46.151241,14.995463,Slovenia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of earnings records,Other administrative records and related sources,1916
+77,46.151241,14.995463,Slovenia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Structure of earnings records,Other administrative records and related sources,1803
+78,48.669026,19.699023999999998,Slovakia,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Structure of Earnings Survey,Establishment survey,1291
+79,48.669026,19.699023999999998,Slovakia,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Annual Structure of Earnings Survey,Establishment survey,1007
+80,13.794185,-88.89653,El Salvador,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Multi-purpose household survey,Other household survey,303
+81,13.794185,-88.89653,El Salvador,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Multi-purpose household survey,Other household survey,286
+82,15.870032,100.992541,Thailand,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,421
+83,15.870032,100.992541,Thailand,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour force survey,Labour force survey,419
+84,-8.874217,125.727539,Timor-Leste,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,308
+85,-8.874217,125.727539,Timor-Leste,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Labour Force Survey,Labour force survey,367
+86,48.379433,31.16558,Ukraine,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Survey on wages of employees by gender, age, education and occupational group",Establishment survey,215
+87,48.379433,31.16558,Ukraine,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),"Survey on wages of employees by gender, age, education and occupational group",Establishment survey,166
+88,-32.522779,-55.765834999999996,Uruguay,Male (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Labour force survey,955
+89,-32.522779,-55.765834999999996,Uruguay,Female (Sex),Total (Occupation (ISCO-08)),U.S. dollars (Currency),Continous Household Survey,Labour force survey,754
