@@ -24,9 +24,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="https://gmousse.github.io/dataframe-js/dist/dataframe.js"></script>
-  <!-- <script type="module">
-    document.querySelector('#selDataset').addEventListener('change', yearSelection)
-  </script> -->
+  <script type="module">
+    document.querySelector('#selDataset').addEventListener('change', year)
+  </script>
 
 
   <!-- Our CSS -->
@@ -127,8 +127,6 @@
             compared to the pay of a similar cohort of men. Other estimates of the gender pay gap are based on weekly
             or
             hourly earnings, or are specific to a particular group of women.
-            <br>
-            According to the Bureau of Labor Statistics, female full-time workers had median weekly earnings of $789, compared to men's median weekly earnings of $973. 
           </p>
           <br>
           <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
@@ -150,14 +148,11 @@
           </h2>
           <p>
             <br>
-            The gender wage gap varies across countries.
-            We took 2016 data from 45 countries around the world and looked at the annual earnings of each gender and compared the differences.
-            Our map illustrates the difference between the male & female earnings, so the bigger the blue border the larger the pay gap.
-            <br>
-            From the 45 countries, only 3 of them or 7% has equal pay ratio 
-           For example, among OECD nations
-            women in Iceland, Belgium, Italy and Sweden earn 80% as much as males, whereas
-            in Austria, Canada and Japan women earn about 60%. 
+            The gender wage gap varies across countries. For example, among OECD nations
+            women in Australia, Belgium, Italy and Sweden earn 80% as much as males, whereas
+            in Austria, Canada and Japan women earn about 60%. Current studies examining
+            cross-country differences focus on the impact of labor market institutions such as
+            minimum wage laws and nationwide collective bargaining. 
           </p>
           <br>
           <p class="title-style">Based on the dataset on found <a href="https://www.bls.gov/data/">here.</a></p>
@@ -185,9 +180,12 @@
 
           <div class="container">
             <div class="row">
+              <div >
+                <select id="selDataset"> </select>
+              </div>  
               <div class="col-md-6" id="byracebar"></div>>
                 <h3 class="title-style">Select a Year:</h3>
-                <select id="selDataset"> </select>
+                <!-- <select id="selDataset"> </select> -->
               </div>  
             </div>
 
