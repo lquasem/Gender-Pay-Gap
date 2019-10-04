@@ -256,80 +256,7 @@ function init() {
   d3.json("/byEducation", function (education) {
 
     var category = Object.keys(education.education_level).map(item => education.education_level[item]);
-    // //Ploting the graph for 2016
-    //   var earnings_2016 = Object.keys(education.median_weekly_earnings_in_2016).map(item => education.median_weekly_earnings_in_2016[item]);
-    //   var ratio_2016 = getRatio(earnings_2016)
-    //   // console.log(array)
-    //   var trace1 = {
-    //     x: category.slice(0,9),
-    //     y: earnings_2016.slice(0,9),
-    //     marker: {
-    //       color: 'skyblue'
-    //     },
-    //     name: 'Men',
-    //     type: 'bar'
-    //   };
-
-    //   var trace2 = {
-    //     x: category.slice(0,9),
-    //     y: earnings_2016.slice(9),
-    //     text: ratio_2016,
-    //     marker: {
-    //       color: 'red'
-    //     },
-    //     name: 'Women',
-    //     type: 'bar'
-    //   };
-
-    //   var data = [trace1, trace2];
-
-    //   var layout = {
-    //     barmode: 'group',
-    //     title: 'Weekly earnings by education level in 2016',
-    //     font:{
-    //           family: 'Raleway, sans-serif'
-    //          },
-    // };
-
-    //   Plotly.newPlot('graph_2016', data, layout);
-
-    //   //Ploting the graph for 2017
-    //   var category_2017 = Object.keys(education.education_level).map(item => education.education_level[item]);
-    //   var earnings_2017 = Object.keys(education.median_weekly_earnings_in_2017).map(item => education.median_weekly_earnings_in_2017[item]);
-    //   var ratio_2017 = getRatio(earnings_2017)
-    //   // console.log(xArray_2017)
-    //   var men_trace_2017 = {
-    //     x: category_2017.slice(0,9),
-    //     y: earnings_2017.slice(0,9),
-    //     marker: {
-    //       color: 'skyblue'
-    //     },
-    //     name: 'Men',
-    //     type: 'bar'
-    //   };
-
-    //   var women_trace_2017 = {
-    //     x: category_2017.slice(0,9),
-    //     y: earnings_2017.slice(9),
-    //     text: ratio_2017,
-    //     marker: {
-    //       color: 'red'
-    //     },
-    //     name: 'Women',
-    //     type: 'bar'
-    //   };
-
-    //   var data1 = [men_trace_2017, women_trace_2017];
-    //   var layout_2017 = {
-    //     barmode: 'group',
-    //     title: 'Weekly earnings by education level in 2017',
-    //     font:{
-    //           family: 'Raleway, sans-serif'
-    //          },
-    // };
-
-    //   Plotly.newPlot('graph_2017', data1, layout_2017);
-
+   
     //Ploting the graph for 2018
     var category_2018 = Object.keys(education.education_level).map(item => education.education_level[item]);
     var earnings_2018 = Object.keys(education.median_weekly_earnings_in_2018).map(item => education.median_weekly_earnings_in_2018[item]);
@@ -339,7 +266,12 @@ function init() {
       x: category_2018.slice(0, 9),
       y: earnings_2018.slice(0, 9),
       marker: {
-        color: 'rgb(158,202,225)'
+        color: 'rgb(158,202,225)',
+        opacity: 0.6,
+        line: {
+          color: 'rgb(8,48,107)',
+          width: 1.5
+        },
       },
       name: 'Men',
       type: 'bar'
@@ -350,7 +282,12 @@ function init() {
       y: earnings_2018.slice(9),
       text: ratio_2018,
       marker: {
-        color: 'rgb(255,153,255)'
+        color: 'rgb(255,153,255)',
+        opacity: 0.6,
+        line: {
+          color: 'rgb(8,48,107)',
+          width: 1.5
+        }
       },
       name: 'Women',
       type: 'bar'
