@@ -5,10 +5,11 @@ Exploring the persistence of gender pay gap in the U.S. and a short report of th
 -Wikipedia
 
 Our project explores the statistics some of the areas ways where women are constantly falling behind their male counterparts.
+
+![](europe.JPG)
 We took 2016 data from 45 countries around the world and looked at the annual earnings of each gender and compared the differences.
 These were the following topics that we studied further:
 
-![](europe.JPG)
 
 •	Global Gender Gap
 •	Overall Gender Gap in U.S.A
