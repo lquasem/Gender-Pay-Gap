@@ -8,6 +8,8 @@ Our project explores the statistics some of the areas ways where women are const
 We took 2016 data from 45 countries around the world and looked at the annual earnings of each gender and compared the differences.
 These were the following topics that we studied further:
 
+![](europe.JPG)
+
 •	Global Gender Gap
 •	Overall Gender Gap in U.S.A
 •	Gender Gap by Race
